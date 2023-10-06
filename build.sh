@@ -3,8 +3,8 @@ cmake -S . -B build
 cd build
 make -j 4
 mv ./src/csmith ./
-cp ./build/csmith /bin/csmith_forkserver
-cp ./build/csmith /usr/csmith_forkserver
+cp ./csmith /bin/csmith_forkserver
+cp ./csmith /usr/csmith_forkserver
 cd ../../
 
 cd yarpgen_forkserver
